@@ -4,7 +4,7 @@ import TextPressure from './component/textPressure';
 
 function App() {
   return (
-    <div style={{position: 'relative', height: '300px'}}>
+    <div style={{position: 'relative', height: '600px'}}>
   <TextPressure
     text="Suraj Gavali!"
     flex={true}
@@ -15,7 +15,7 @@ function App() {
     italic={true}
     textColor="#000000"
     strokeColor="#ff0000"
-    minFontSize={36}
+    minFontSize={50}
   />
 
   <TextPressure
