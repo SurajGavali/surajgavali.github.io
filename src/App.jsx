@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import TextPressure from './component/textPressure';
 
+
 function App() {
   return (
     <div style={{
@@ -22,6 +23,7 @@ function App() {
         strokeColor="#ff0000"
         minFontSize={200}
       />
+
     </div>
   );
 }
